@@ -1,0 +1,40 @@
+generations:
+  - name: "First Generation"
+    start_year: 1985
+    end_year: 1988
+    description: "The original Hyundai Sonata was a front-engine, rear-wheel-drive sedan based on the Hyundai Stellar but with updated styling. Available primarily in South Korea and limited export markets, it featured a conservative design typical of midsize sedans of its era. Powered by a range of four-cylinder engines with modest performance, it positioned itself as an affordable alternative to established competitors. The interior was basic but functional, with a focus on durability rather than luxury. This generation established the Sonata nameplate that would eventually become one of Hyundai's global core models, though it was still early in the company's development as an automaker."
+
+  - name: "Second Generation"
+    start_year: 1988
+    end_year: 1993
+    description: "The second-generation Sonata marked Hyundai's first attempt at a more globally competitive midsize sedan. Now using front-wheel drive architecture, it featured more modern styling influenced by European design trends. Available with a range of four-cylinder and V6 engines, it offered improved performance and refinement over its predecessor. The interior saw enhancements in design and materials, though still positioned as a value-oriented option. This generation began Hyundai's expansion into more international markets, including North America, though the company still struggled with quality perception compared to Japanese competitors."
+
+  - name: "Third Generation"
+    start_year: 1993
+    end_year: 1998
+    description: "The third-generation Sonata featured evolutionary styling with a more aerodynamic design. Built on an updated platform, it offered improved handling and comfort. Engine options expanded to include more refined four-cylinder and V6 units with better performance and efficiency. The interior received significant improvements in design, materials, and features, reflecting Hyundai's efforts to move upmarket. This generation represented an important step forward in Hyundai's global competitiveness, though the company was still establishing its reputation for quality and reliability in many markets."
+
+  - name: "Fourth Generation"
+    start_year: 1998
+    end_year: 2004
+    description: "The fourth-generation Sonata featured more distinctive styling with a cleaner, more European-influenced design. Built on a new platform with improved rigidity, it offered better handling and refinement. Engine options evolved to include more powerful and efficient units, including an improved V6. The interior saw substantial enhancements in design, materials, and feature content, beginning to close the gap with established competitors. Quality and reliability improved significantly during this generation, helping to address one of the main concerns consumers had about the brand. This generation marked an important step in Hyundai's transition from a purely budget-oriented manufacturer to a more mainstream competitor."
+
+  - name: "Fifth Generation (NF)"
+    start_year: 2004
+    end_year: 2009
+    description: "The fifth-generation Sonata represented a significant leap forward in design, quality, and engineering. Featuring more sophisticated styling with a clear European influence, it announced Hyundai's ambitions to compete directly with established midsize sedans. Built on a new platform shared with Kia, it offered improved dynamics, refinement, and safety. Engine options included refined four-cylinder and V6 units with improved performance and efficiency. The interior featured a significant upgrade in design, materials, and features, approaching the level of more premium competitors. This generation established the Sonata as a legitimate contender in the competitive midsize sedan segment, helping to transform Hyundai's brand image globally."
+
+  - name: "Sixth Generation (YF)"
+    start_year: 2009
+    end_year: 2014
+    description: "The sixth-generation Sonata introduced Hyundai's 'Fluidic Sculpture' design language, featuring dramatic, flowing lines that helped it stand out in the typically conservative midsize sedan segment. Built on an all-new platform, it offered improved handling, refinement, and safety. Engine options evolved to focus on efficiency, with four-cylinder units (including a turbocharged option) replacing the previous V6. The interior featured a modern, premium-feeling design with improved materials and technology. This generation marked Hyundai's arrival as a design leader rather than follower, with the Sonata's bold styling influencing competitors and helping to further transform the brand's image from budget option to desirable mainstream choice."
+
+  - name: "Seventh Generation (LF)"
+    start_year: 2014
+    end_year: 2019
+    description: "The seventh-generation Sonata featured more restrained styling compared to its predecessor, with a focus on elegant simplicity over dramatic flourishes. Built on an updated platform with increased use of high-strength steel, it offered improved rigidity, safety, and refinement. Engine options were refined for better efficiency and drivability, including enhanced four-cylinder and turbocharged variants. The interior saw enhancements in design, material quality, and technology, with available features including larger touchscreen infotainment systems and advanced driver assistance technologies. A significant refresh in 2017 updated the styling with a more dynamic look and added features. This generation maintained the Sonata's position as one of Hyundai's core global models, offering competitive features and quality while continuing to provide value compared to many competitors."
+
+  - name: "Eighth Generation (DN8)"
+    start_year: 2019
+    end_year: null
+    description: "The current Sonata features a dramatic return to bold styling with coupe-like proportions, a fastback roofline, and distinctive lighting elements including hidden LED daytime running lights that appear chrome when off and illuminate when on. Built on Hyundai's latest platform architecture, it offers improved dynamics, refinement, and safety. Engine options focus on efficiency with a standard 2.5L four-cylinder and optional 1.6L turbocharged four-cylinder, plus hybrid and performance-oriented N Line variants. The interior represents a major advancement with a clean, horizontal dashboard design, available 12.3-inch digital instrument cluster, 10.25-inch touchscreen infotainment system, and premium materials. Technology has advanced significantly with features like Digital Key, remote smart parking assist, and Hyundai's comprehensive SmartSense safety suite. A refresh for 2024 updated the styling with a more futuristic front end inspired by Hyundai's Staria minivan. Despite its impressive features and design, this generation faces challenges as consumer preferences continue to shift away from sedans toward SUVs and crossovers, leading to declining sales in most markets."
