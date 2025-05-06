@@ -87,6 +87,3 @@ supported_commands_by_ecu:
   - 0121:MIL_DIST
   - 0130:WARM_UPS
   - 0131:CLR_DIST
-unsupported_commands_by_ecu:
-  770:
-  - 770.778.22BC08
