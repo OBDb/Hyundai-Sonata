@@ -1,0 +1,14 @@
+command_id: 7E0.0131
+test_cases:
+- response: "0131\nNO DATA\n01311\nNO DATA\n7E8 04 41 31 48 9D "
+  expected_values:
+    CLR_DIST: 18589
+- response: 7E80441314D3A
+  expected_values:
+    CLR_DIST: 19770
+- response: 7E80441314D6D
+  expected_values:
+    CLR_DIST: 19821
+- response: 7E8044131520B
+  expected_values:
+    CLR_DIST: 21003
