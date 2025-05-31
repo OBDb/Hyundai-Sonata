@@ -1,0 +1,7 @@
+command_id: 770.778.22BC05
+test_cases:
+- response: |-
+    778100B62BC050F1320
+    778210000000000AAAA
+  expected_values:
+    HYUNDAI_HAZARD_SW_V2: 0

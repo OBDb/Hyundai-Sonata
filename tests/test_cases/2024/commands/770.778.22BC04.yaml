@@ -1,0 +1,21 @@
+command_id: 770.778.22BC04
+test_cases:
+- response: "22BC04\nNO DATA\n778 10 0B 62 BC 04 BF FE BF \n778 21 78 00 0E 02 08 "
+  expected_values:
+    HYUNDAI_LOCK_FL_V2: 0
+    HYUNDAI_LOCK_FR_V2: 0
+    HYUNDAI_REVERSE_GEAR: 0
+- response: |-
+    778100B62BC04BFFEBF
+    7782178000E0208
+  expected_values:
+    HYUNDAI_LOCK_FL_V2: 0
+    HYUNDAI_LOCK_FR_V2: 0
+    HYUNDAI_REVERSE_GEAR: 0
+- response: |-
+    778100B62BC04BFFEBF
+    7782178000E0208AAAA
+  expected_values:
+    HYUNDAI_LOCK_FL_V2: 0
+    HYUNDAI_LOCK_FR_V2: 0
+    HYUNDAI_REVERSE_GEAR: 0

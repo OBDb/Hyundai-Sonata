@@ -1,0 +1,5 @@
+command_id: 7E0.011C
+test_cases:
+- response: "011C\n7E8 03 41 1C 03 "
+  expected_values:
+    OBDSUP: OBD & OBD II
