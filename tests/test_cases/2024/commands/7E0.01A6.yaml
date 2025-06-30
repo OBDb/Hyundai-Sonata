@@ -1,0 +1,17 @@
+command_id: 7E0.01A6
+test_cases:
+- expected_values:
+    ODO: 18482.1
+  response: "01A6\nNO DATA\n01A61\nNO DATA\n7E8 06 41 A6 00 02 D1 F5 "
+- expected_values:
+    ODO: 18492.9
+  response: "01A61\nNO DATA\n7E8 06 41 A6 00 02 D2 61 "
+- expected_values:
+    ODO: 18502.7
+  response: "01A61\nNO DATA\n7E8 06 41 A6 00 02 D2 C3 "
+- expected_values:
+    ODO: 23891.5
+  response: 7E80641A60003A543
+- expected_values:
+    ODO: 23906.7
+  response: 7E80641A60003A5DB
