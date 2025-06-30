@@ -1,18 +1,18 @@
 command_id: 770.778.22BC05
 test_cases:
 - expected_values:
-    HYUNDAI_HAZARD_SW: 0
+    SONATA_HAZARD_SW: 0
   response: "22BC05\n778 10 08 62 BC 05 80 00 00 \n778 21 00 00 "
 - expected_values:
-    HYUNDAI_HAZARD_SW: 0
+    SONATA_HAZARD_SW: 0
   response: "22BC05\nNO DATA\n778 10 08 62 BC 05 80 00 00 \n778 21 00 00 "
 - expected_values:
-    HYUNDAI_HAZARD_SW: 0
+    SONATA_HAZARD_SW: 0
   response: |-
     778100862BC05800000
     778210000
 - expected_values:
-    HYUNDAI_HAZARD_SW: 0
+    SONATA_HAZARD_SW: 0
   response: |-
     778100862BC05800000
     778210000AAAAAAAAAA
