@@ -14,6 +14,12 @@ test_cases:
     778213C00080030AAAA
 - expected_values:
     HYUNDAI_HL_HIGH: 0
+    HYUNDAI_HL_LOW: 0
+  response: |-
+    778100B62BC09301030
+    778213C000C0000AAAA
+- expected_values:
+    HYUNDAI_HL_HIGH: 0
     HYUNDAI_HL_LOW: 1
   response: |-
     778100B62BC09301030
