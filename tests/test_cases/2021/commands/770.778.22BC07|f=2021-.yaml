@@ -1,0 +1,12 @@
+command_id: 770.778.22BC07|f=2021-
+test_cases:
+- expected_values:
+    SONATA_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07F00003
+    77821C000000000AAAA
+- expected_values:
+    SONATA_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07F00003
+    77821C004000000AAAA

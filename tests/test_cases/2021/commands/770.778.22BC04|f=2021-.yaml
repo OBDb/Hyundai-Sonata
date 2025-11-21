@@ -1,0 +1,32 @@
+command_id: 770.778.22BC04|f=2021-
+test_cases:
+- expected_values:
+    SONATA_BELT_RL: 1
+    SONATA_BELT_RM: 1
+    SONATA_BELT_RR: 1
+    SONATA_GEAR_R: 0
+    SONATA_LOCK_FL: 0
+    SONATA_LOCK_FR: 0
+  response: |-
+    778100B62BC04302770
+    778212000000E00AAAA
+- expected_values:
+    SONATA_BELT_RL: 1
+    SONATA_BELT_RM: 1
+    SONATA_BELT_RR: 1
+    SONATA_GEAR_R: 0
+    SONATA_LOCK_FL: 1
+    SONATA_LOCK_FR: 0
+  response: |-
+    778100B62BC04302770
+    778212008000E00AAAA
+- expected_values:
+    SONATA_BELT_RL: 1
+    SONATA_BELT_RM: 1
+    SONATA_BELT_RR: 1
+    SONATA_GEAR_R: 0
+    SONATA_LOCK_FL: 1
+    SONATA_LOCK_FR: 1
+  response: |-
+    778100B62BC04302770
+    77821200C000E00AAAA
