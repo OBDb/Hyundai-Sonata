@@ -1,4 +1,257 @@
 { "commands": [
-
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC03"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_TRUNK",     "path": "Doors",     "fmt": {"bix": 32, "len": 1, "max": 1, "unit": "noyes" }, "name": "Trunk open?"},
+    {"id": "SONATA_DOOR_FL",   "path": "Doors",     "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front left door open?"},
+    {"id": "SONATA_DOOR_FR",   "path": "Doors",     "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes" }, "name": "Front right door open?"},
+    {"id": "SONATA_HANDBRAKE", "path": "Control",   "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "noyes" }, "name": "Handbrake engaged?"},
+    {"id": "SONATA_DOOR_RR",   "path": "Doors",     "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear right door open?"},
+    {"id": "SONATA_DOOR_RL",   "path": "Doors",     "fmt": {"bix": 39, "len": 1, "max": 1, "unit": "noyes" }, "name": "Rear left door open?"},
+    {"id": "SONATA_BELT_PASS", "path": "Seatbelts", "fmt": {"bix": 45, "len": 1, "max": 1, "unit": "noyes" }, "name": "Passenger seatbelt latched?"},
+    {"id": "SONATA_BELT_DRIV", "path": "Seatbelts", "fmt": {"bix": 46, "len": 1, "max": 1, "unit": "noyes" }, "name": "Driver seatbelt latched?"},
+    {"id": "SONATA_HOOD",      "path": "Doors",     "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "noyes" }, "name": "Hood latched?"},
+    {"id": "SONATA_DEFOG_SW",  "path": "Climate",   "fmt": {"bix": 62, "len": 1, "max": 1, "unit": "noyes" }, "name": "Defogging?"}
+  ]},
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC04"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_GEAR_R",  "path": "Transmission", "fmt": {"bix": 35, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Reverse gear selected"},
+    {"id": "SONATA_LOCK_FL", "path": "Doors",        "fmt": {"bix": 36, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front left door locked?"},
+    {"id": "SONATA_LOCK_FR", "path": "Doors",        "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "scalar" }, "name": "Front right door locked?"},
+    {"id": "SONATA_BELT_RM", "path": "Seatbelts",    "fmt": {"bix": 52, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear middle seatbelt latched?"},
+    {"id": "SONATA_BELT_RL", "path": "Seatbelts",    "fmt": {"bix": 53, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear left seatbelt latched?"},
+    {"id": "SONATA_BELT_RR", "path": "Seatbelts",    "fmt": {"bix": 54, "len": 1, "max": 1, "unit": "noyes"  }, "name": "Rear right seatbelt latched?"}
+  ]},
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC05"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
+    {"id": "SONATA_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch (raw >2)"}
+  ]},
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC07"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2024 },
+  "signals": [
+    {"id": "SONATA_DEFOG_LIGHT", "path": "Climate", "fmt": {"bix": 47, "len": 1, "max": 1, "unit": "offon" }, "name": "Defog light"}
+  ]},
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC08"}, "freq": 2, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_TURN_R", "path": "Lights", "fmt": {"bix": 37, "len": 1, "max": 1, "unit": "offon" }, "name": "Right turn signal on? (raw >3)"},
+    {"id": "SONATA_TURN_L", "path": "Lights", "fmt": {"bix": 38, "len": 1, "max": 1, "unit": "offon" }, "name": "Left turn signal on? (raw >1)"}
+  ]},
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC09"}, "freq": 1, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_HL_HIGH", "path": "Lights", "fmt": {"bix": 55, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight high beam"},
+    {"id": "SONATA_HL_LOW",  "path": "Lights", "fmt": {"bix": 63, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight low beam"}
+  ]},
+{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "C00B"}, "freq": 15, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_TP_FL", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure front left",     "suggestedMetric": "frontLeftTirePressure"},
+    {"id": "SONATA_TT_FL", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 100, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature front left"},
+    {"id": "SONATA_TW_FL", "path": "Tires", "fmt": {"bix": 56,  "len": 8, "max": 1,                                                     "unit": "noyes"   }, "name": "Tire alert front left"},
+    {"id": "SONATA_TP_FR", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure front right",    "suggestedMetric": "frontRightTirePressure"},
+    {"id": "SONATA_TT_FR", "path": "Tires", "fmt": {"bix": 80,  "len": 8, "max": 100, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature front right"},
+    {"id": "SONATA_TW_FR", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 1,                                                     "unit": "noyes"   }, "name": "Tire alert front right"},
+    {"id": "SONATA_TP_RR", "path": "Tires", "fmt": {"bix": 112, "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure rear right",     "suggestedMetric": "rearRightTirePressure"},
+    {"id": "SONATA_TT_RR", "path": "Tires", "fmt": {"bix": 120, "len": 8, "max": 100, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature rear right"},
+    {"id": "SONATA_TW_RR", "path": "Tires", "fmt": {"bix": 136, "len": 8, "max": 1,                                                     "unit": "noyes"   }, "name": "Tire alert rear right"},
+    {"id": "SONATA_TP_RL", "path": "Tires", "fmt": {"bix": 152, "len": 8, "max": 51,              "div": 5,             "nullmin": 0,   "unit": "psi"     }, "name": "Tire pressure rear left",      "suggestedMetric": "rearLeftTirePressure"},
+    {"id": "SONATA_TT_RL", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 100, "min": -50,           "add": -50, "nullmin": -50, "unit": "celsius" }, "name": "Tire temperature rear left"},
+    {"id": "SONATA_TW_RL", "path": "Tires", "fmt": {"bix": 176, "len": 8, "max": 1,                                                     "unit": "noyes"   }, "name": "Tire alert rear left"},
+    {"id": "SONATA_TB_FL", "path": "Tires", "name": "Tire battery front left", "fmt": {"bix": 48, "len": 8, "map": {
+          "0": { "description": ">3 V",        "value": "3V+" },
+          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
+          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
+          "3": { "description": "< 2.4",       "value": "2_4-" }
+        }}
+    },
+    {"id": "SONATA_TB_FR", "path": "Tires", "name": "Tire battery front right", "fmt": {"bix": 88, "len": 8, "map": {
+          "0": { "description": ">3 V",        "value": "3V+" },
+          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
+          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
+          "3": { "description": "< 2.4",       "value": "2_4-" }
+        }}
+    },
+    {"id": "SONATA_TB_RR", "path": "Tires", "name": "Tire battery rear right", "fmt": {"bix": 128, "len": 8, "map": {
+          "0": { "description": ">3 V",        "value": "3V+" },
+          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
+          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
+          "3": { "description": "< 2.4",       "value": "2_4-" }
+        }}
+    },
+    {"id": "SONATA_TB_RL", "path": "Tires", "name": "Tire battery rear left", "fmt": {"bix": 168, "len": 8, "map": {
+          "0": { "description": ">3 V",        "value": "3V+" },
+          "1": { "description": "2.7 - 3 V",   "value": "27_3V" },
+          "2": { "description": "2.4 - 2.7 V", "value": "2_4_2_7V" },
+          "3": { "description": "< 2.4",       "value": "2_4-" }
+        }}
+    }
+  ]},
+{ "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.5, "filter": { "from": 2021 }, "dbgfilter": { "years": [2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_VSS", "path": "Movement", "fmt": {"bix": 232, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7C6", "rax": "7CE", "cmd": {"22": "B002"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_FLI_VOL",         "path": "Fuel",       "fmt": {"bix": 32, "len": 8,  "max": 255,                   "unit": "liters"     }, "name": "Fuel level (volume)"},
+    {"id": "SONATA_CLUSTER_VOLTAGE", "path": "Electrical", "fmt": {"bix": 40, "len": 8,  "max": 18,       "div": 12.8, "unit": "volts"      }, "name": "Cluster voltage"},
+    {"id": "SONATA_ODO_KM",          "path": "Trips",      "fmt": {"bix": 48, "len": 24, "max": 16777215,              "unit": "kilometers" }, "name": "Odometer (metric)",   "suggestedMetric": "odometer"},
+    {"id": "SONATA_ODO_MI",          "path": "Trips",      "fmt": {"bix": 72, "len": 24, "max": 16777215,              "unit": "miles"      }, "name": "Odometer (imperial)", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2012, "from": 2015 },
+  "signals": [
+    {"id": "SONATA_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "SONATA_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "SONATA_RL_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "SONATA_RR_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2022, 2023], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_VSS_AVG",     "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Vehicle speed, average"},
+    {"id": "SONATA_TIRE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
+    {"id": "SONATA_TIRE_FR_VSS", "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front right wheel speed"},
+    {"id": "SONATA_TIRE_RR_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"},
+    {"id": "SONATA_TIRE_RL_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
+    {"id": "SONATA_TC_SWITCH",   "path": "Movement", "fmt": {"bix": 150, "len": 1,  "max": 1,                                                 "unit": "noyes"             }, "name": "Vehicle traction control switch (raw)"},
+    {"id": "SONATA_STEER_ANGLE", "path": "Control",  "fmt": {"bix": 200, "len": 16, "max": 3276.7, "min": -3276.8, "div": 10,   "sign": true, "unit": "degrees"           }, "name": "Steering wheel angle"},
+    {"id": "SONATA_BRAKE_P",     "path": "Control",  "fmt": {"bix": 256, "len": 16, "max": 100,                    "div": 86.7, "sign": true, "unit": "percent"           }, "name": "Brake pressure"}
+  ]},
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"21": "01"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2018], "from": 2020 },
+  "signals": [
+    {"id": "SONATA_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
+  ]},
+{ "hdr": "7D6", "rax": "7DE", "dbg": true, "cmd": {"21": "06"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_TP_1", "path": "Tires", "fmt": {            "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 1 pressure"},
+    {"id": "SONATA_TT_1", "path": "Tires", "fmt": {"bix": 16,  "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 1 temperature"},
+    {"id": "SONATA_TP_2", "path": "Tires", "fmt": {"bix": 48,  "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 2 pressure"},
+    {"id": "SONATA_TT_2", "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 2 temperature"},
+    {"id": "SONATA_TP_3", "path": "Tires", "fmt": {"bix": 96,  "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 3 pressure"},
+    {"id": "SONATA_TT_3", "path": "Tires", "fmt": {"bix": 112, "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 3 temperature"},
+    {"id": "SONATA_TP_4", "path": "Tires", "fmt": {"bix": 144, "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 4 pressure"},
+    {"id": "SONATA_TT_4", "path": "Tires", "fmt": {"bix": 160, "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 4 temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "00"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_FUEL_CUT",               "path": "Fuel",     "fmt": {"bix": 88,  "len": 8, "max": 255, "unit": "scalar" }, "name": "Fuel cut"},
+    {"id": "SONATA_IDLE_CONTROL_MODE",      "path": "Engine",   "fmt": {"bix": 120, "len": 8, "max": 255, "unit": "scalar" }, "name": "Idle control mode"},
+    {"id": "SONATA_COOLANT_FAN_LOW_SPEED",  "path": "Movement", "fmt": {"bix": 170, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan low speed"},
+    {"id": "SONATA_COOLANT_FAN_HIGH_SPEED", "path": "Movement", "fmt": {"bix": 171, "len": 1, "max": 1,   "unit": "offon"  }, "name": "Coolant fan high speed"},
+    {"id": "SONATA_KNOCK_DETECTED",         "path": "Engine",   "fmt": {"bix": 200, "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock detected"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"21": "01"}, "freq": 1, "filter": { "to": 2019 }, "dbgfilter": { "to": 2009, "years": [2012, 2015, 2017, 2018] },
+  "signals": [
+    {"id": "SONATA_CONTROL_MODULE_VOLTAGE",                "path": "Battery",  "fmt": {"bix": 40,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage"},
+    {"id": "SONATA_CONTROL_MODULE_VOLTAGE_AFTER_IGNITION", "path": "Battery",  "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                                         "unit": "volts"   },                   "name": "Control module voltage after ignition"},
+    {"id": "SONATA_ENGINE_RPM",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                    "mul": 0.25,                                       "unit": "rpm"        },                                               "name": "Engine RPM"},
+    {"id": "SONATA_COMMANDED_ENGINE_IDLE_RPM",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                          "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
+    {"id": "SONATA_MAP_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "MAP sensor voltage"},
+    {"id": "SONATA_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "ECU",      "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.99609375,                "mul": 0.00390625,                                 "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
+    {"id": "SONATA_COOLANT_T_SENSOR_VOLTAGE",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
+    {"id": "SONATA_ENGINE_COOLANT_T",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
+    {"id": "SONATA_IAT_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
+    {"id": "SONATA_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
+    {"id": "SONATA_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "02"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_OXYGEN_SENSOR_11",            "path": "ECU",      "fmt": {"bix": 32,  "len": 8,  "max": 1.12855,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 1 bank 1"},
+    {"id": "SONATA_OXYGEN_SENSOR_21",            "path": "ECU",      "fmt": {"bix": 48,  "len": 8,  "max": 1.12855,   "min": -0.2,      "mul": 0.00521,                 "add": -0.2, "unit": "volts"             },                     "name": "Oxygen sensor 2 bank 1"},
+    {"id": "SONATA_VSS_V2",                      "path": "Movement", "fmt": {"bix": 96,  "len": 8,  "max": 318.75,                      "mul": 1.25,                                 "unit": "kilometersPerHour" },                     "name": "Vehicle speed, v2",           "suggestedMetric": "speed"},
+    {"id": "SONATA_COMMANDED_EVAPORATIVE_PURGE", "path": "ECU",      "fmt": {"bix": 160, "len": 8,  "max": 99.609375,                   "mul": 0.390625,                             "unit": "percent"           },                     "name": "Commanded evaporative purge"},
+    {"id": "SONATA_FUEL_INJECTION_TIMING_1",     "path": "Fuel",     "fmt": {"bix": 176, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #1"},
+    {"id": "SONATA_FUEL_INJECTION_TIMING_2",     "path": "Fuel",     "fmt": {"bix": 192, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #2"},
+    {"id": "SONATA_FUEL_INJECTION_TIMING_3",     "path": "Fuel",     "fmt": {"bix": 208, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #3"},
+    {"id": "SONATA_FUEL_INJECTION_TIMING_4",     "path": "Fuel",     "fmt": {"bix": 224, "len": 16, "blsb": true,     "max": 53686.272,                  "mul": 0.8192,                                          "unit": "milliseconds" },                                     "name": "Fuel injection timing #4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "04"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_COOLANT_FAN_HIGH_SPEED__1_8_", "path": "Movement", "fmt": {"bix": 109, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan high speed (1.8)"},
+    {"id": "SONATA_COOLANT_FAN_LOW_SPEED__1_8_",  "path": "Movement", "fmt": {"bix": 110, "len": 1, "max": 1, "unit": "offon" }, "name": "Coolant fan low speed (1.8)"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "0D"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_MIS_CNT_EMIS_1", "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #1"},
+    {"id": "SONATA_MIS_CNT_EMIS_2", "path": "Engine.Misfires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #2"},
+    {"id": "SONATA_MIS_CNT_EMIS_3", "path": "Engine.Misfires", "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #3"},
+    {"id": "SONATA_MIS_CNT_EMIS_4", "path": "Engine.Misfires", "fmt": {"bix": 96,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Emission-relevant misfires, cylinder #4"},
+    {"id": "SONATA_MIS_CNT_1",      "path": "Engine.Misfires", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #1"},
+    {"id": "SONATA_MIS_CNT_2",      "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #2"},
+    {"id": "SONATA_MIS_CNT_3",      "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #3"},
+    {"id": "SONATA_MIS_CNT_4",      "path": "Engine.Misfires", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, cylinder #4"},
+    {"id": "SONATA_MIS_CNT_ALL",    "path": "Engine.Misfires", "fmt": {"bix": 432, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires total counter, all cylinders"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "13"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_TIMING_ADVANCE_1",    "path": "Engine", "fmt": {"bix": 32,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #1"},
+    {"id": "SONATA_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
+    {"id": "SONATA_TIMING_ADVANCE_3",    "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #3"},
+    {"id": "SONATA_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
+    {"id": "SONATA_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,             "mul": 0.5,                "unit": "kilopascal" }, "name": "Barometric pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "14"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_COMMANDED_THROTTLE_ACTUATOR",                 "path": "Engine",   "fmt": {"bix": 40,  "len": 8,  "max": 99.609375,                "mul": 0.390625,                                    "unit": "percent" },                "name": "Commanded throttle actuator"},
+    {"id": "SONATA_THROTTLE_POSITION__1",                        "path": "Engine",   "fmt": {"bix": 48,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #1"},
+    {"id": "SONATA_THROTTLE_POSITION__2",                        "path": "Engine",   "fmt": {"bix": 64,  "len": 16, "blsb": true,     "max": 799,    "min": -800,     "mul": 0.0244140625, "sign": true,                   "unit": "percent" },                                             "name": "Throttle position #2"},
+    {"id": "SONATA_THROTTLE_POSITION_SENSOR_VOLTAGE__2",         "path": "Battery",  "fmt": {"bix": 80,  "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                 "unit": "volts"   },                                             "name": "Throttle position sensor voltage #2"},
+    {"id": "SONATA_COOLANT_FAN__PWM_",                           "path": "Engine",   "fmt": {"bix": 96,  "len": 8,  "max": 100,                                                                          "unit": "percent" },                "name": "Coolant)"},
+    {"id": "SONATA_RELATIVE_ACCELERATOR_PEDAL_POSITION_VOLTAGE", "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,     "max": 6553.4, "min": -6553.6,  "mul": 0.2,          "sign": true,                   "unit": "volts"   },                                             "name": "Relative accelerator pedal position voltage"},
+    {"id": "SONATA_RELATIVE_ACCELERATOR_PEDAL_POSITION",         "path": "Movement", "fmt": {"bix": 128, "len": 8,  "max": 99.609375,                "mul": 0.390625,                                    "unit": "percent" },                "name": "Relative accelerator pedal position"},
+    {"id": "SONATA_REQUESTED_TORQUE",                            "path": "Engine",   "fmt": {"bix": 176, "len": 16, "max": 100.00641,                "mul": 0.001526,                                    "unit": "percent" },                "name": "Requested torque"},
+    {"id": "SONATA_THROTTLE_POSITION_SENSOR_VOLTAGE__1",         "path": "Battery",  "fmt": {"bix": 360, "len": 16, "blsb": true,     "max": 79,                      "mul": 0.0012207031,                                 "unit": "volts"   },                                             "name": "Throttle position sensor voltage #1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "15"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_STFT_B1_IDLE", "path": "Fuel", "fmt": {"bix": 48, "len": 16, "blsb": true, "max": 100, "mul": 0.046875,                  "sign": true, "unit": "percent" }, "name": "Short term fuel % trim, bank 1 idle"},
+    {"id": "SONATA_STFT_B1",      "path": "Fuel", "fmt": {"bix": 80, "len": 16, "blsb": true, "max": 100, "mul": 0.0030517578, "add": -100,               "unit": "percent" }, "name": "Short term fuel % trim, bank 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "16"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_KNOCK_RETARD_CYLINDER_1", "path": "ECU", "fmt": {"bix": 96,  "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #1"},
+    {"id": "SONATA_KNOCK_RETARD_CYLINDER_2", "path": "ECU", "fmt": {"bix": 104, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #2"},
+    {"id": "SONATA_KNOCK_RETARD_CYLINDER_3", "path": "ECU", "fmt": {"bix": 112, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #3"},
+    {"id": "SONATA_KNOCK_RETARD_CYLINDER_4", "path": "ECU", "fmt": {"bix": 120, "len": 8, "max": 191.25, "mul": 0.75, "unit": "degrees" }, "name": "Knock retard cylinder #4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "17"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_INTAKE_CAMSHAFT_POSITION_COMMANDED", "path": "ECU", "fmt": {"bix": 32, "len": 8,  "max": 63.5,  "min": -64,         "mul": 0.5,                    "sign": true,               "unit": "degrees" },                "name": "intake camshaft position commanded"},
+    {"id": "SONATA_INTAKE_CAMSHAFT_POSITION_ACTUAL",    "path": "ECU", "fmt": {"bix": 40, "len": 16, "blsb": true, "max": 255.9921875, "min": -256, "mul": 0.0078125,               "sign": true,                   "unit": "degrees" },                                            "name": "intake camshaft position actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "1D"}, "freq": 1,
+  "signals": [
+    {"id": "SONATA_MIS_1",     "path": "Engine.Misfires", "fmt": {"bix": 32,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 1"},
+    {"id": "SONATA_MIS_2",     "path": "Engine.Misfires", "fmt": {"bix": 48,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 2"},
+    {"id": "SONATA_MIS_3",     "path": "Engine.Misfires", "fmt": {"bix": 64,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 3"},
+    {"id": "SONATA_MIS_4",     "path": "Engine.Misfires", "fmt": {"bix": 80,  "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires, cylinder 4"},
+    {"id": "SONATA_MIS_CAT_1", "path": "Engine.Misfires", "fmt": {"bix": 160, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 1"},
+    {"id": "SONATA_MIS_CAT_2", "path": "Engine.Misfires", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 2"},
+    {"id": "SONATA_MIS_CAT_3", "path": "Engine.Misfires", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 3"},
+    {"id": "SONATA_MIS_CAT_4", "path": "Engine.Misfires", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 65535, "unit": "scalar" }, "name": "Misfires harmful for catalyst cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "years": [2018, 2020, 2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_EIT", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
+    {"id": "SONATA_EOT", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "years": [2018, 2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_INJ_DUR_1", "path": "Engine", "fmt": {"bix": 176, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 1"},
+    {"id": "SONATA_INJ_DUR_2", "path": "Engine", "fmt": {"bix": 192, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 2"},
+    {"id": "SONATA_INJ_DUR_3", "path": "Engine", "fmt": {"bix": 208, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 3"},
+    {"id": "SONATA_INJ_DUR_4", "path": "Engine", "fmt": {"bix": 224, "len": 16, "blsb": true, "max": 53, "div": 1220.7, "unit": "seconds" }, "name": "Injection duration cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E004"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "years": [2018, 2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_AUX_SOC", "path": "Battery", "fmt": {"bix": 320, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of charge", "suggestedMetric": "stateOfCharge"},
+    {"id": "SONATA_AUX_SOH", "path": "Battery", "fmt": {"bix": 328, "len": 8, "max": 100, "unit": "percent" }, "name": "Aux battery state of health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E00A"}, "freq": 1, "filter": {"from": 2015}, "dbgfilter": { "years": [2018, 2022], "from": 2026 },
+  "signals": [
+    {"id": "SONATA_KNOCK_RETARD_1", "path": "Engine", "fmt": {"bix": 96,  "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 1"},
+    {"id": "SONATA_KNOCK_RETARD_2", "path": "Engine", "fmt": {"bix": 104, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 2"},
+    {"id": "SONATA_KNOCK_RETARD_3", "path": "Engine", "fmt": {"bix": 112, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 3"},
+    {"id": "SONATA_KNOCK_RETARD_4", "path": "Engine", "fmt": {"bix": 120, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock retard, cylinder 4"},
+    {"id": "SONATA_KNOCK_LEARN_1",  "path": "Engine", "fmt": {"bix": 160, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 1"},
+    {"id": "SONATA_KNOCK_LEARN_2",  "path": "Engine", "fmt": {"bix": 168, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 2"},
+    {"id": "SONATA_KNOCK_LEARN_3",  "path": "Engine", "fmt": {"bix": 176, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 3"},
+    {"id": "SONATA_KNOCK_LEARN_4",  "path": "Engine", "fmt": {"bix": 184, "len": 8, "max": 25, "min": -25, "div": 5, "sign": true, "unit": "degrees" }, "name": "Knock learn, cylinder 4"}
+  ]}
 ]
 }
