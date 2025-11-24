@@ -42,6 +42,16 @@ test_cases:
 - expected_values:
     SONATA_DOOR_FL: 0
     SONATA_DOOR_FR: 0
+    SONATA_DOOR_RL: 1
+    SONATA_DOOR_RR: 0
+    SONATA_HANDBRAKE: 0
+    SONATA_TRUNK: 0
+  response: |-
+    778100862BC03D00000
+    778210003AAAAAAAAAA
+- expected_values:
+    SONATA_DOOR_FL: 0
+    SONATA_DOOR_FR: 0
     SONATA_DOOR_RL: 0
     SONATA_DOOR_RR: 0
     SONATA_HANDBRAKE: 0
