@@ -22,8 +22,8 @@ test_cases:
     VPWR: 13.261
   response: "01421\nNO DATA\n7E8 04 41 42 33 CD "
 - expected_values:
-    VPWR: 13.613
-  response: 7E8044142352D
+    VPWR: 12.656
+  response: '7E80441423170'
 - expected_values:
     VPWR: 13.808
   response: 7E804414235F0
