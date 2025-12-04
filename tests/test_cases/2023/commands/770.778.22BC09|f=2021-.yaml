@@ -5,6 +5,18 @@ test_cases:
     SONATA_HL_LOW: 0
   response: |-
     778100B62BC09301003
+    77821CC00000000AAAA
+- expected_values:
+    SONATA_HL_HIGH: 0
+    SONATA_HL_LOW: 0
+  response: |-
+    778100B62BC09301003
+    77821CC0000C000AAAA
+- expected_values:
+    SONATA_HL_HIGH: 0
+    SONATA_HL_LOW: 0
+  response: |-
+    778100B62BC09301003
     77821CC00080000AAAA
 - expected_values:
     SONATA_HL_HIGH: 0
@@ -12,6 +24,24 @@ test_cases:
   response: |-
     778100B62BC09301003
     77821CC0008C000AAAA
+- expected_values:
+    SONATA_HL_HIGH: 0
+    SONATA_HL_LOW: 0
+  response: |-
+    778100B62BC09301003
+    77821CC000C0010AAAA
+- expected_values:
+    SONATA_HL_HIGH: 0
+    SONATA_HL_LOW: 0
+  response: |-
+    778100B62BC09301003
+    77821CC000C0020AAAA
+- expected_values:
+    SONATA_HL_HIGH: 0
+    SONATA_HL_LOW: 0
+  response: |-
+    778100B62BC09301003
+    77821CC000C0030AAAA
 - expected_values:
     SONATA_HL_HIGH: 0
     SONATA_HL_LOW: 0
