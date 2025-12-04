@@ -4,4 +4,9 @@ test_cases:
     SONATA_DEFOG_LIGHT: 0
   response: |-
     778100B62BC07F00013
+    77821CE00000000AAAA
+- expected_values:
+    SONATA_DEFOG_LIGHT: 0
+  response: |-
+    778100B62BC07F00013
     77821CE00000840AAAA

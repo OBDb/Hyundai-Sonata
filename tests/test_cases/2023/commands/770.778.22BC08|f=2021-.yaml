@@ -5,7 +5,19 @@ test_cases:
     SONATA_TURN_R: 0
   response: |-
     778100B62BC08005290
+    77821BC00000018AAAA
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: |-
+    778100B62BC08005290
     77821BC0000011CAAAA
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: |-
+    778100B62BC08005290
+    77821BC0002001CAAAA
 - expected_values:
     SONATA_TURN_L: 0
     SONATA_TURN_R: 0

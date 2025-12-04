@@ -7,7 +7,22 @@ test_cases:
     778210000000000AAAA
 - expected_values:
     SONATA_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1320
+    778210000400000AAAA
+- expected_values:
+    SONATA_HAZARD_SW: 0
     SONATA_HL_SW: 1
   response: |-
     778100B62BC050F1320
     778210000400400AAAA
+- expected_values:
+    SONATA_HAZARD_SW: 16
+  response: |-
+    778100B62BC050F1320
+    778210010000000AAAA
+- expected_values:
+    SONATA_HAZARD_SW: 32
+  response: |-
+    778100B62BC050F1320
+    778210020000000AAAA
