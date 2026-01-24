@@ -1,3 +1,6 @@
+references:
+  - "https://en.wikipedia.org/wiki/Hyundai_Sonata"
+
 generations:
   - name: "First Generation"
     start_year: 1985
@@ -31,10 +34,10 @@ generations:
 
   - name: "Seventh Generation (LF)"
     start_year: 2014
-    end_year: 2019
+    end_year: 2023
     description: "The seventh-generation Sonata featured more restrained styling compared to its predecessor, with a focus on elegant simplicity over dramatic flourishes. Built on an updated platform with increased use of high-strength steel, it offered improved rigidity, safety, and refinement. Engine options were refined for better efficiency and drivability, including enhanced four-cylinder and turbocharged variants. The interior saw enhancements in design, material quality, and technology, with available features including larger touchscreen infotainment systems and advanced driver assistance technologies. A significant refresh in 2017 updated the styling with a more dynamic look and added features. This generation maintained the Sonata's position as one of Hyundai's core global models, offering competitive features and quality while continuing to provide value compared to many competitors."
 
   - name: "Eighth Generation (DN8)"
     start_year: 2019
     end_year: null
-    description: "The current Sonata features a dramatic return to bold styling with coupe-like proportions, a fastback roofline, and distinctive lighting elements including hidden LED daytime running lights that appear chrome when off and illuminate when on. Built on Hyundai's latest platform architecture, it offers improved dynamics, refinement, and safety. Engine options focus on efficiency with a standard 2.5L four-cylinder and optional 1.6L turbocharged four-cylinder, plus hybrid and performance-oriented N Line variants. The interior represents a major advancement with a clean, horizontal dashboard design, available 12.3-inch digital instrument cluster, 10.25-inch touchscreen infotainment system, and premium materials. Technology has advanced significantly with features like Digital Key, remote smart parking assist, and Hyundai's comprehensive SmartSense safety suite. A refresh for 2024 updated the styling with a more futuristic front end inspired by Hyundai's Staria minivan. Despite its impressive features and design, this generation faces challenges as consumer preferences continue to shift away from sedans toward SUVs and crossovers, leading to declining sales in most markets."
+    description: "The current Sonata features a dramatic return to bold styling with coupe-like proportions, a fastback roofline, and distinctive lighting elements including hidden LED daytime running lights that appear chrome when off and illuminate when on. Built on Hyundai's latest platform architecture, it offers improved dynamics, refinement, and safety. Engine options focus on efficiency with a standard 2.5L four-cylinder and optional 1.6L turbocharged four-cylinder, plus hybrid and performance-oriented N Line variants. The interior represents a major advancement with a clean, horizontal dashboard design, available 12.3-inch digital instrument cluster, 10.25-inch touchscreen infotainment system, and premium materials. Technology has advanced significantly with features like Digital Key, remote smart parking assist, and Hyundai's comprehensive SmartSense safety suite. A refresh for 2024 updated the styling with a more futuristic front end with full-width LED light bar. Despite its impressive features and design, this generation faces challenges as consumer preferences continue to shift away from sedans toward SUVs and crossovers, leading to declining sales in most markets."
