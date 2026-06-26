@@ -1,0 +1,17 @@
+command_id: 770.778.22BC05|f=2021-
+test_cases:
+- expected_values:
+    SONATA_HAZARD_SW: 0
+  response: |-
+    778100B62BC050F1320
+    778210000000000AAAA
+- expected_values:
+    SONATA_HAZARD_SW: 192
+  response: |-
+    778100B62BC050F1320
+    7782100C0000000AAAA
+- expected_values:
+    SONATA_HAZARD_SW: 208
+  response: |-
+    778100B62BC050F1320
+    7782100D0000000AAAA
