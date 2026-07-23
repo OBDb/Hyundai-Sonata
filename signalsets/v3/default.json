@@ -101,7 +101,7 @@
     {"id": "SONATA_RL_VSS", "path": "Movement", "fmt": {"bix": 104, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"},
     {"id": "SONATA_RR_VSS", "path": "Movement", "fmt": {"bix": 112, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
   ]},
-{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2023], "from": 2026 },
+{ "hdr": "7D1", "rax": "7D9", "cmd": {"22": "0104"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020], "from": 2026 },
   "signals": [
     {"id": "SONATA_VSS_AVG",     "path": "Movement", "fmt": {"bix": 48,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Vehicle speed, average"},
     {"id": "SONATA_TIRE_FL_VSS", "path": "Movement", "fmt": {"bix": 88,  "len": 8,  "max": 255,                                               "unit": "kilometersPerHour" }, "name": "Front left wheel speed"},
