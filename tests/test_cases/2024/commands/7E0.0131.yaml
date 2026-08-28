@@ -9,8 +9,8 @@ test_cases:
     01311
     7E80441315D15
 - expected_values:
-    CLR_DIST: 19770
-  response: 7E80441314D3A
+    CLR_DIST: 13805
+  response: 7E804413135ED
 - expected_values:
     CLR_DIST: 23807
   response: 7E80441315CFF
