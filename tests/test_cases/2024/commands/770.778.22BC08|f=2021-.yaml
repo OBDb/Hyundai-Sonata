@@ -1,0 +1,25 @@
+command_id: 770.778.22BC08|f=2021-
+test_cases:
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: |-
+    22BC08
+    778100862BC08E00000
+    778210000AAAAAAAAAA
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: "22BC08\nNO DATA\n778 10 08 62 BC 08 E0 00 00 \n778 21 00 00 "
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: |-
+    778100862BC08E00000
+    778210000
+- expected_values:
+    SONATA_TURN_L: 0
+    SONATA_TURN_R: 0
+  response: |-
+    778100862BC08E00000
+    778210000AAAAAAAAAA
