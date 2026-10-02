@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22E004|f=2015-
 test_cases:
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821001410E8036A15
@@ -15,8 +15,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821002210E8036B15
@@ -29,8 +29,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821002C10E8036B15
@@ -43,8 +43,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821003B10E8036B15
@@ -57,8 +57,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821004410E8032914
@@ -71,8 +71,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821004D10E8032814
@@ -85,8 +85,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821006610E8032914
@@ -99,8 +99,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821007410E8032914
@@ -113,8 +113,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821008710E8032814
@@ -127,8 +127,8 @@ test_cases:
     7E82800000000000000
     7E82900AAAAAAAAAAAA
 - expected_values:
-    SONATA_AUX_SOC: 0
-    SONATA_AUX_SOH: 0
+    SONATA_AUX_SOC: null
+    SONATA_AUX_SOH: null
   response: |-
     7E8103F62E004FFFF01
     7E821009610E803E612
