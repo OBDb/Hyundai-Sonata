@@ -2,7 +2,7 @@ command_id: 7C6.7CE.22B002
 test_cases:
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 12.1875
-    SONATA_FLI_VOL: 48
+    SONATA_FLI_VOL: 24
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 45218
   response: |-
@@ -11,7 +11,7 @@ test_cases:
     7CE22B0A20000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 12.34375
-    SONATA_FLI_VOL: 49
+    SONATA_FLI_VOL: 24.5
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 45218
   response: |-
@@ -20,7 +20,7 @@ test_cases:
     7CE22B0A20000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 12.5
-    SONATA_FLI_VOL: 51
+    SONATA_FLI_VOL: 25.5
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 45218
   response: |-
@@ -29,7 +29,7 @@ test_cases:
     7CE22B0A20000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 13.28125
-    SONATA_FLI_VOL: 93
+    SONATA_FLI_VOL: 46.5
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 25840
   response: |-
@@ -38,7 +38,7 @@ test_cases:
     7CE2264F00000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 13.125
-    SONATA_FLI_VOL: 95
+    SONATA_FLI_VOL: 47.5
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 23021
   response: |-
@@ -47,7 +47,7 @@ test_cases:
     7CE2259ED0000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 12.34375
-    SONATA_FLI_VOL: 96
+    SONATA_FLI_VOL: 48
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 18967
   response: |-
@@ -56,7 +56,6 @@ test_cases:
     7CE224A170000000000
 - expected_values:
     SONATA_CLUSTER_VOLTAGE: 12.5
-    SONATA_FLI_VOL: 255
     SONATA_ODO_KM: 0
     SONATA_ODO_MI: 25808
   response: |-
