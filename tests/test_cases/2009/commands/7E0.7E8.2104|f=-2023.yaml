@@ -1,4 +1,4 @@
-command_id: 7E0.7E8.2104
+command_id: 7E0.7E8.2104|f=-2023
 test_cases:
 - expected_values:
     SONATA_COOLANT_FAN_HIGH_SPEED__1_8_: 0
