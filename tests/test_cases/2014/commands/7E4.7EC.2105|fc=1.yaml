@@ -1,0 +1,37 @@
+command_id: 7E4.7EC.2105|fc=1
+test_cases:
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 2
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC21012C00012C0200
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 0
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2101FE0701AB0000
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 14
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2101FE0701AB0E00
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 2
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2102000701AA0200
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 2
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2102300701AD0200
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 2
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2102300701B10200
+- expected_values:
+    SONATA_BAT_UNKNOWN_06_T: 30
+  response: |-
+    7EC100C6105FFFFFFFF
+    7EC2102330701AF1E00
