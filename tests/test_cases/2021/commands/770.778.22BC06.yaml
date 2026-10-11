@@ -10,3 +10,18 @@ test_cases:
   response: |-
     778100B62BC06B48000
     778216D00000080AAAA
+- expected_values:
+    SONATA_BRAKE_LIGHT: 4
+  response: |-
+    778100B62BC06B48000
+    778216D04000080AAAA
+- expected_values:
+    SONATA_BRAKE_LIGHT: 12
+  response: |-
+    778100B62BC06B48000
+    778216D0C000000AAAA
+- expected_values:
+    SONATA_BRAKE_LIGHT: 45
+  response: |-
+    778100B62BC06B48000
+    778216D2D000080AAAA
