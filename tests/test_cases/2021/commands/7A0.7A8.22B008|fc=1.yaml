@@ -5,3 +5,8 @@ test_cases:
   response: |-
     7A8100B62B00800000C
     7A8214000000000AAAA
+- expected_values:
+    SONATA_BRAKE_SW: 0
+  response: |-
+    7A8100B62B00800000C
+    7A8214000000002AAAA
