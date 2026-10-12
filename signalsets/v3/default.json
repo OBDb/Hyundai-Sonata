@@ -148,27 +148,27 @@
   ]},
 { "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "SONATA_SENS_1_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 1"},
-    {"id": "SONATA_SENS_1_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 2"},
-    {"id": "SONATA_SENS_1_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 1 odometer event 3"}
+    {"id": "SONATA_SENS_1_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 1"},
+    {"id": "SONATA_SENS_1_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 2"},
+    {"id": "SONATA_SENS_1_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 3"}
   ]},
 { "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "SONATA_SENS_2_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 1"},
-    {"id": "SONATA_SENS_2_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 2"},
-    {"id": "SONATA_SENS_2_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 2 odometer event 3"}
+    {"id": "SONATA_SENS_2_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 1"},
+    {"id": "SONATA_SENS_2_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 2"},
+    {"id": "SONATA_SENS_2_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 3"}
   ]},
 { "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "SONATA_SENS_3_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 1"},
-    {"id": "SONATA_SENS_3_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 2"},
-    {"id": "SONATA_SENS_3_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 3 odometer event 3"}
+    {"id": "SONATA_SENS_3_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 1"},
+    {"id": "SONATA_SENS_3_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 2"},
+    {"id": "SONATA_SENS_3_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 3"}
   ]},
 { "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
   "signals": [
-    {"id": "SONATA_SENS_4_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 4 odometer event 1"},
-    {"id": "SONATA_SENS_4_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 4 odometer event 2"},
-    {"id": "SONATA_SENS_4_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "unit": "kilometers" }, "name": "Sensor 4 odometer event 3"}
+    {"id": "SONATA_SENS_4_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 1"},
+    {"id": "SONATA_SENS_4_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 2"},
+    {"id": "SONATA_SENS_4_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 3"}
   ]},
 { "hdr": "7B3", "rax": "7BB", "fcm1": true, "cmd": {"22": "0100"}, "freq": 0.5, "filter": { "from": 2021 }, "dbgfilter": { "from": 2027 },
   "signals": [
@@ -231,16 +231,27 @@
   "signals": [
     {"id": "SONATA_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "amps" }, "name": "Motor-driven power steering current"}
   ]},
-{ "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 1, "dbgfilter": { "to": 2012, "years": [2014], "from": 2018 },
+{ "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 1, "filter": { "to": 2014 }, "dbgfilter": { "to": 2012, "years": [2014], "from": 2018 },
   "signals": [
-    {"id": "SONATA_TP_1", "path": "Tires", "fmt": {            "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 1 pressure"},
-    {"id": "SONATA_TT_1", "path": "Tires", "fmt": {"bix": 16,  "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 1 temperature"},
-    {"id": "SONATA_TP_2", "path": "Tires", "fmt": {"bix": 48,  "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 2 pressure"},
-    {"id": "SONATA_TT_2", "path": "Tires", "fmt": {"bix": 64,  "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 2 temperature"},
-    {"id": "SONATA_TP_3", "path": "Tires", "fmt": {"bix": 96,  "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 3 pressure"},
-    {"id": "SONATA_TT_3", "path": "Tires", "fmt": {"bix": 112, "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 3 temperature"},
-    {"id": "SONATA_TP_4", "path": "Tires", "fmt": {"bix": 144, "len": 16, "max": 6553.5,                "div": 10,               "unit": "kilopascal" }, "name": "Sensor 4 pressure"},
-    {"id": "SONATA_TT_4", "path": "Tires", "fmt": {"bix": 160, "len": 16, "max": 32767,  "min": -32768,            "sign": true, "unit": "celsius"    }, "name": "Sensor 4 temperature"}
+    {"id": "SONATA_TP_1_PRE15", "path": "Tires", "fmt": {            "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 1 pressure"},
+    {"id": "SONATA_TT_1_PRE15", "path": "Tires", "fmt": {"bix": 8,   "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 1 temperature"},
+    {"id": "SONATA_TP_2_PRE15", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 2 pressure"},
+    {"id": "SONATA_TT_2_PRE15", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 2 temperature"},
+    {"id": "SONATA_TP_3_PRE15", "path": "Tires", "fmt": {"bix": 64,  "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 3 pressure"},
+    {"id": "SONATA_TT_3_PRE15", "path": "Tires", "fmt": {"bix": 72,  "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 3 temperature"},
+    {"id": "SONATA_TP_4_PRE15", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 4 pressure"},
+    {"id": "SONATA_TT_4_PRE15", "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 4 temperature"}
+  ]},
+{ "hdr": "7D6", "rax": "7DE", "cmd": {"21": "06"}, "freq": 1, "filter": { "from": 2015 }, "dbgfilter": { "to": 2012, "years": [2014], "from": 2018 },
+  "signals": [
+    {"id": "SONATA_TP_1", "path": "Tires", "fmt": {"bix": 32,  "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 1 pressure"},
+    {"id": "SONATA_TT_1", "path": "Tires", "fmt": {"bix": 40,  "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 1 temperature"},
+    {"id": "SONATA_TP_2", "path": "Tires", "fmt": {"bix": 96,  "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 2 pressure"},
+    {"id": "SONATA_TT_2", "path": "Tires", "fmt": {"bix": 104, "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 2 temperature"},
+    {"id": "SONATA_TP_3", "path": "Tires", "fmt": {"bix": 160, "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 3 pressure"},
+    {"id": "SONATA_TT_3", "path": "Tires", "fmt": {"bix": 168, "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 3 temperature"},
+    {"id": "SONATA_TP_4", "path": "Tires", "fmt": {"bix": 224, "len": 8, "max": 51,               "div": 5,  "nullmin": 0, "unit": "psi"     }, "name": "Sensor 4 pressure"},
+    {"id": "SONATA_TT_4", "path": "Tires", "fmt": {"bix": 232, "len": 8, "max": 205, "min": -50,            "add": -50,  "unit": "celsius" }, "name": "Sensor 4 temperature"}
   ]},
 { "hdr": "7E0", "cmd": {"22": "E021"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2022, 2023], "from": 2026 },
   "signals": [
@@ -705,7 +716,20 @@
     {"id": "SONATA_BAT_V",                "path": "Battery", "fmt": {"bix": 272, "len": 16, "max": 71.535,                  "mul": 10,    "div": 10000, "add": 6,                 "unit": "volts"       }, "name": "Battery voltage"},
     {"id": "SONATA_BAT_T",                "path": "Battery", "fmt": {"bix": 288, "len": 16, "max": 32767.5,                               "div": 2,                               "unit": "celsius"     }, "name": "Battery temperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "filter": { "to": 2023 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2017, 2018], "from": 2020 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "filter": { "to": 2010 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2017, 2018], "from": 2020 },
+  "signals": [
+    {"id": "SONATA_ENGINE_RPM_TCM_PRE11",        "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
+    {"id": "SONATA_VEHICLE_SPEED_PRE11",         "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
+    {"id": "SONATA_APP_REL_TCM_PRE11",           "path": "Control",      "fmt": {"bix": 64,  "len": 8,  "max": 100,                   "mul": 100, "div": 255,              "unit": "percent"           }, "name": "Relative accelerator pedal position"},
+    {"id": "SONATA_TURBINE_SPEED_PRE11",         "path": "Engine",       "fmt": {"bix": 64,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Turbine speed"},
+    {"id": "SONATA_OUTPUT_SPEED_PRE11",          "path": "Engine",       "fmt": {"bix": 80,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Output speed"},
+    {"id": "SONATA_ATF_T_PRE11",                 "path": "Engine",       "fmt": {"bix": 104, "len": 8,  "max": 215,      "min": -40,                          "add": -40,  "unit": "celsius"           }, "name": "Automatic transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "SONATA_TORQUE_CONVERTER_SLIP_PRE11", "path": "Engine",       "fmt": {"bix": 128, "len": 16, "max": 15871.75, "min": -512,             "div": 4,   "add": -512, "unit": "rpm"               }, "name": "Torque converter slip"},
+    {"id": "SONATA_CURRENT_GEAR_PRE11",          "path": "Transmission", "fmt": {"bix": 168, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Current gear"},
+    {"id": "SONATA_COMMANDED_GEAR_PRE11",        "path": "Transmission", "fmt": {"bix": 176, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Commanded gear"},
+    {"id": "SONATA_BRAKE_PEDAL_PRE11",           "path": "Control",      "fmt": {"bix": 192, "len": 8,  "max": 255,                                                        "unit": "scalar"            }, "name": "Brake pedal"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"21": "A0"}, "freq": 0.25, "filter": { "from": 2011, "to": 2023 }, "dbgfilter": { "to": 2009, "years": [2011, 2012, 2017, 2018], "from": 2020 },
   "signals": [
     {"id": "SONATA_ENGINE_RPM_TCM",        "path": "Engine",       "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
     {"id": "SONATA_VEHICLE_SPEED",         "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
@@ -768,7 +792,7 @@
   ]},
 { "hdr": "7E2", "rax": "7EA", "cmd": {"22": "E004"}, "freq": 1, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "SONATA_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 100, "unit": "percent" }, "name": "12v battery charge"}
+    {"id": "SONATA_VPWR_V3", "path": "Battery", "fmt": {"bix": 152, "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "12V battery voltage"}
   ]},
 { "hdr": "7E2", "rax": "7EA", "dbg": true, "cmd": {"22": "E005"}, "freq": 1,
   "signals": [
@@ -937,7 +961,7 @@
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0101"}, "freq": 1, "filter": { "to": 2014, "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2026 },
   "signals": [
-    {"id": "SONATA_HVBAT_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                        "div": 2,                "unit": "percent"       }, "name": "HV battery charge, dashboard",     "suggestedMetric": "stateOfCharge"},
+    {"id": "SONATA_HVBAT_SOC",        "path": "Battery", "fmt": {"bix": 32,  "len": 8,  "max": 100,                        "div": 2,                "nullmin": 0, "unit": "percent"       }, "name": "HV battery charge, dashboard",     "suggestedMetric": "stateOfCharge"},
     {"id": "SONATA_HVBAT_CHARGING",   "path": "Battery", "fmt": {"bix": 72,  "len": 1,  "max": 1,                                                   "unit": "offon"         }, "name": "HV battery charging",              "suggestedMetric": "isCharging"},
     {"id": "SONATA_HVBAT_PLUG_RAPD",  "path": "Battery", "fmt": {"bix": 73,  "len": 1,  "max": 1,                                                   "unit": "offon"         }, "name": "Rapid charge port state",          "suggestedMetric": "pluggedIn"},
     {"id": "SONATA_HVBAT_PLUG_NORM",  "path": "Battery", "fmt": {"bix": 74,  "len": 1,  "max": 1,                                                   "unit": "offon"         }, "name": "Normal charge port state",         "suggestedMetric": "pluggedIn"},
@@ -956,7 +980,7 @@
     {"id": "SONATA_C_V_MIN_ID",       "path": "Battery", "fmt": {"bix": 208, "len": 8,  "max": 255,                                                 "unit": "scalar"        }, "name": "Minimum cell voltage id",          "description": "The id of the cell with the lowest voltage."},
     {"id": "SONATA_HVBAT_FAN_STATUS", "path": "Battery", "fmt": {"bix": 216, "len": 8,  "max": 255,                                                 "unit": "scalar"        }, "name": "HV battery fan status"},
     {"id": "SONATA_HVBAT_FAN",        "path": "Battery", "fmt": {"bix": 224, "len": 8,  "max": 255,                                                 "unit": "hertz"         }, "name": "HV battery fan"},
-    {"id": "SONATA_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 25.5,                       "div": 10,               "unit": "volts"         }, "name": "Battery auxiliary voltage",        "suggestedMetric": "starterBatteryVoltage"},
+    {"id": "SONATA_VPWR_V2",          "path": "Battery", "fmt": {"bix": 232, "len": 8,  "max": 25.5,                       "div": 10,               "nullmin": 0, "unit": "volts"         }, "name": "Battery auxiliary voltage",        "suggestedMetric": "starterBatteryVoltage"},
     {"id": "SONATA_HVBAT_CHRG_TOT_C", "path": "Battery", "fmt": {"bix": 240, "len": 32, "max": 429496729,                  "div": 10,               "unit": "ampereHours"   }, "name": "Total charge current"},
     {"id": "SONATA_HVBAT_DSCH_TOT_C", "path": "Battery", "fmt": {"bix": 272, "len": 32, "max": 429496729,                  "div": 10,               "unit": "ampereHours"   }, "name": "Total discharge current"},
     {"id": "SONATA_HVBAT_CHRG_TOT_E", "path": "Battery", "fmt": {"bix": 304, "len": 32, "max": 429496729,                  "div": 10,               "unit": "kilowattHours" }, "name": "Total charge energy"},
@@ -964,7 +988,7 @@
     {"id": "SONATA_DRIVE_TIME",       "path": "Stats",   "fmt": {"bix": 368, "len": 32, "max": 4294967295,                                          "unit": "seconds"       }, "name": "Total drive time"},
     {"id": "SONATA_IGN",              "path": "Battery", "fmt": {"bix": 405, "len": 1,  "max": 1,                                                   "unit": "offon"         }, "name": "Ignition"},
     {"id": "SONATA_INVRT_CV",         "path": "Battery", "fmt": {"bix": 408, "len": 16, "max": 65535,                                               "unit": "volts"         }, "name": "Inverter capacitor voltage"},
-    {"id": "SONATA_RPM_7E4",          "path": "Engine",  "fmt": {"bix": 424, "len": 16, "max": 65535,                                               "unit": "rpm"           }, "name": "Drive motor speed"},
+    {"id": "SONATA_RPM_7E4",          "path": "Engine",  "fmt": {"bix": 424, "len": 16, "max": 32767, "min": -32768,                    "sign": true,      "unit": "rpm"           }, "name": "Drive motor speed"},
     {"id": "SONATA_ISO_R",            "path": "Battery", "fmt": {"bix": 456, "len": 16, "max": 65535,                                               "unit": "kiloohms"      }, "name": "Isolation resistance"}
   ]},
 { "hdr": "7E4", "rax": "7EC", "fcm1": true, "cmd": {"22": "0102"}, "freq": 1, "filter": { "to": 2014, "from": 2018 }, "dbgfilter": { "to": 2022, "from": 2026 },
