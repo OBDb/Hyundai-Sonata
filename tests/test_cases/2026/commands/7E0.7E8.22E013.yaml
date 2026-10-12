@@ -1,0 +1,9 @@
+command_id: 7E0.7E8.22E013
+test_cases:
+- expected_values:
+    SONATA_BRAKE_BOOSTER_P: 0
+  response: |-
+    7E8101762E013000000
+    7E82100000000000000
+    7E82200000000000000
+    7E823000000AAAAAAAA
