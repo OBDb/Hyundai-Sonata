@@ -60,7 +60,7 @@
     {"id": "SONATA_HAZARD_SW", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255,                             "unit": "scalar" }, "name": "Hazard switch"},
     {"id": "SONATA_HL_SW",     "path": "Lights", "fmt": {"bix": 48, "len": 8, "max": 1,   "nullmin": 0, "nullmax": 2, "unit": "noyes"  }, "name": "Headlight switch (raw >2)"}
   ]},
-{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "cmd": {"22": "BC06"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_BRAKE_LIGHT", "path": "Lights", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Brake light"}
   ]},
@@ -78,15 +78,15 @@
     {"id": "SONATA_HL_HIGH", "path": "Lights", "fmt": {"bix": 55, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight high beam"},
     {"id": "SONATA_HL_LOW",  "path": "Lights", "fmt": {"bix": 63, "len": 1, "max": 1, "unit": "offon" }, "name": "Headlight low beam"}
   ]},
-{ "hdr": "770", "rax": "778", "fcm1": true, "cmd": {"22": "BC10"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "770", "rax": "778", "fcm1": true, "cmd": {"22": "BC10"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_LIGHTS_CODE", "path": "Lights", "fmt": {"bix": 32, "len": 4, "max": 15, "unit": "scalar" }, "name": "Exterior lights state code"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "B008"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "B008"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_BRAKE_SW", "path": "Control", "fmt": {"bix": 51, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "B009"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "cmd": {"22": "B009"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_PARKING_SENS_REAR",        "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center left level"},
     {"id": "SONATA_PARKING_SENS_REAR_CENTER", "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 255, "unit": "scalar" }, "name": "Parking sensor rear center right level"}
@@ -96,7 +96,7 @@
     {"id": "SONATA_HEATED_WHEEL",     "path": "Climate", "fmt": {"bix": 34, "len": 1, "max": 1, "unit": "offon" }, "name": "Heated steering wheel"},
     {"id": "SONATA_HEATED_WHEEL_ALT", "path": "Climate", "fmt": {"bix": 42, "len": 1, "max": 1, "unit": "offon" }, "name": "Heated steering wheel, alternate bit"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C002"}, "freq": 60, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C002"}, "freq": 60, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_TID_1", "path": "Tires", "fmt": {"bix": 32,  "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 1 ID"},
     {"id": "SONATA_TID_2", "path": "Tires", "fmt": {"bix": 64,  "len": 32, "max": 4294967295, "unit": "hex" }, "name": "Tire sensor 2 ID"},
@@ -146,25 +146,25 @@
         }}
     }
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00C"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_SENS_1_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 1"},
     {"id": "SONATA_SENS_1_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 2"},
     {"id": "SONATA_SENS_1_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 1 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00D"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_SENS_2_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 1"},
     {"id": "SONATA_SENS_2_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 2"},
     {"id": "SONATA_SENS_2_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 2 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00E"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_SENS_3_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 1"},
     {"id": "SONATA_SENS_3_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 2"},
     {"id": "SONATA_SENS_3_ODO_EVT_3", "path": "Trips", "fmt": {"bix": 320, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 3 odometer event 3"}
   ]},
-{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7A0", "rax": "7A8", "fcm1": true, "cmd": {"22": "C00F"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_SENS_4_ODO_EVT_1", "path": "Trips", "fmt": {"bix": 272, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 1"},
     {"id": "SONATA_SENS_4_ODO_EVT_2", "path": "Trips", "fmt": {"bix": 296, "len": 24, "max": 1677721.5, "div": 10, "nullmax": 1677721.5, "unit": "kilometers" }, "name": "Sensor 4 odometer event 2"},
@@ -227,7 +227,7 @@
   "signals": [
     {"id": "SONATA_STEER_ANGLE_V2", "path": "Control", "fmt": {"bix": 24, "len": 16, "max": 3276.7, "min": -3276.8, "mul": 10, "div": 100, "sign": true, "unit": "degrees" }, "name": "Steering angle"}
   ]},
-{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "filter": { "to": 2014, "from": 2018 }, "dbgfilter": { "to": 2020, "years": [2022], "from": 2026 },
+{ "hdr": "7D4", "rax": "7DC", "cmd": {"22": "0101"}, "freq": 5, "filter": { "to": 2014, "from": 2018 }, "dbgfilter": { "to": 2020, "years": [2022], "from": 2027 },
   "signals": [
     {"id": "SONATA_MDPS_MOTOR_CURRENT", "path": "Engine", "fmt": {"bix": 88, "len": 8, "max": 127, "min": -128, "sign": true, "unit": "amps" }, "name": "Motor-driven power steering current"}
   ]},
@@ -746,7 +746,7 @@
   "signals": [
     {"id": "SONATA_CURRENT_GEAR_7E1_2", "path": "Transmission", "fmt": {"bix": 32, "len": 8, "max": 255, "unit": "scalar" }, "name": "Current gear"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "01A0"}, "freq": 0.25, "dbgfilter": { "to": 2014, "years": [2016, 2017, 2018, 2019, 2020, 2022, 2023, 2024], "from": 2027 },
   "signals": [
     {"id": "SONATA_RPM_7E1",                   "path": "Movement",     "fmt": {"bix": 32,  "len": 16, "max": 16383.75,                          "div": 4,                "unit": "rpm"               }, "name": "Engine RPM"},
     {"id": "SONATA_VSS_7E1",                   "path": "Movement",     "fmt": {"bix": 48,  "len": 8,  "max": 255,                                                        "unit": "kilometersPerHour" }, "name": "Vehicle speed",                            "suggestedMetric": "speed"},
