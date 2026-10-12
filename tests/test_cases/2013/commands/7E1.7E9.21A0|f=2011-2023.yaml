@@ -1,4 +1,4 @@
-command_id: 7E1.7E9.21A0|f=-2023
+command_id: 7E1.7E9.21A0|f=2011-2023
 test_cases:
 - expected_values:
     SONATA_APP_REL_TCM: 0
