@@ -9,4 +9,9 @@ test_cases:
     SONATA_LIGHTS_CODE: 15
   response: |-
     778100B62BC100F0400
+    7782100F0000000AAAA
+- expected_values:
+    SONATA_LIGHTS_CODE: 15
+  response: |-
+    778100B62BC100F0400
     7782100F0200000AAAA
