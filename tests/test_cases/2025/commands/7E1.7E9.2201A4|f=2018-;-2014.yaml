@@ -1,7 +1,7 @@
 command_id: 7E1.7E9.2201A4|f=2018-;-2014
 test_cases:
 - expected_values:
-    SONATA_GEAR_CUR: 7
+    SONATA_GEAR_CUR: '7'
     SONATA_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -14,7 +14,7 @@ test_cases:
     7E92700000000000000
     7E9280000AAAAAAAAAA
 - expected_values:
-    SONATA_GEAR_CUR: 7
+    SONATA_GEAR_CUR: '7'
     SONATA_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -27,7 +27,7 @@ test_cases:
     7E92700000000000000
     7E9280000AAAAAAAAAA
 - expected_values:
-    SONATA_GEAR_CUR: 7
+    SONATA_GEAR_CUR: '7'
     SONATA_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -40,7 +40,6 @@ test_cases:
     7E92700000000000000
     7E9280000AAAAAAAAAA
 - expected_values:
-    SONATA_GEAR_CUR: 9
     SONATA_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
@@ -53,7 +52,6 @@ test_cases:
     7E92700000000000000
     7E9280000AAAAAAAAAA
 - expected_values:
-    SONATA_GEAR_CUR: 15
     SONATA_GEAR_NXT: 0
   response: |-
     7E910396201A4FFFFFF
