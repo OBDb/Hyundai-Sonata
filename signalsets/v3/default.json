@@ -255,7 +255,7 @@
   ]},
 { "hdr": "7E0", "cmd": {"22": "E021"}, "freq": 1, "dbgfilter": { "to": 2014, "years": [2018, 2020, 2023], "from": 2027 },
   "signals": [
-    {"id": "SONATA_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543.3506,              "mul": 0.008291,                                   "unit": "kilopascal" }, "name": "Turbo boost pressure"},
+    {"id": "SONATA_TB_PRES", "path": "Engine", "fmt": {"bix": 56,  "len": 16, "max": 543.3506,              "mul": 0.008291,                                   "unit": "kilopascal" }, "name": "Turbo boost pressure", "suggestedMetric": "absoluteBoostPressure"},
     {"id": "SONATA_WG_V",    "path": "Engine", "fmt": {"bix": 392, "len": 16, "max": 9.9998,                "mul": 0.000152588,                                "unit": "volts"      }, "name": "Waste gate voltage"},
     {"id": "SONATA_WG_DUTY", "path": "Engine", "fmt": {"bix": 408, "len": 16, "max": 199.997,               "mul": 0.00305176,                                 "unit": "percent"    }, "name": "Waste gate duty"},
     {"id": "SONATA_WG_POS",  "path": "Engine", "fmt": {"bix": 424, "len": 16, "max": 199.99,   "min": -200, "mul": 0.00610352,  "sign": true, "nullmin": -200, "unit": "percent"    }, "name": "Waste gate position"},
@@ -276,11 +276,11 @@
     {"id": "SONATA_ENGINE_RPM",                            "path": "Movement", "fmt": {"bix": 56,  "len": 16, "blsb": true,  "max": 16383.75,                    "mul": 0.25,                                       "unit": "rpm"        },                                               "name": "Engine RPM"},
     {"id": "SONATA_COMMANDED_ENGINE_IDLE_RPM",             "path": "Movement", "fmt": {"bix": 72,  "len": 8,  "max": 2550,                          "mul": 10,                                    "unit": "rpm"     },                   "name": "Commanded engine idle RPM"},
     {"id": "SONATA_MAP_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 112, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "MAP sensor voltage"},
-    {"id": "SONATA_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "ECU",      "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.99609375,                "mul": 0.00390625,                                 "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure"},
+    {"id": "SONATA_INTAKE_MANIFOLD_ABSOLUTE_PRESSURE",     "path": "ECU",      "fmt": {"bix": 128, "len": 16, "blsb": true,  "max": 255.99609375,                "mul": 0.00390625,                                 "unit": "kilopascal" },                                               "name": "Intake manifold absolute pressure",  "suggestedMetric": "absoluteBoostPressure"},
     {"id": "SONATA_COOLANT_T_SENSOR_VOLTAGE",              "path": "Battery",  "fmt": {"bix": 184, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "Coolant temperature sensor voltage"},
     {"id": "SONATA_ENGINE_COOLANT_T",                      "path": "Engine",   "fmt": {"bix": 200, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine coolant temperature"},
     {"id": "SONATA_IAT_SENSOR_VOLTAGE",                    "path": "Battery",  "fmt": {"bix": 248, "len": 16, "blsb": true,  "max": 319.9951171875,              "mul": 0.0048828125,                               "unit": "volts"      },                                               "name": "IAT sensor voltage"},
-    {"id": "SONATA_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature"},
+    {"id": "SONATA_INTAKE_AIR_T",                          "path": "Engine",   "fmt": {"bix": 264, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Intake air temperature",                "suggestedMetric": "intakeAirTemperature"},
     {"id": "SONATA_ENGINE_OIL_T",                          "path": "Engine",   "fmt": {"bix": 272, "len": 8,  "max": 143.25, "min": -48,            "mul": 0.75,                      "add": -48, "unit": "celsius" },                   "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "02"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2008, "years": [2010, 2011, 2012, 2014, 2015, 2016, 2017], "from": 2019 },
@@ -378,7 +378,7 @@
     {"id": "SONATA_TIMING_ADVANCE_2",    "path": "Engine", "fmt": {"bix": 40,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #2"},
     {"id": "SONATA_TIMING_ADVANCE_3",    "path": "Engine", "fmt": {"bix": 48,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #3"},
     {"id": "SONATA_TIMING_ADVANCE_4",    "path": "Engine", "fmt": {"bix": 56,  "len": 8, "max": 95.25, "min": -96, "mul": 0.75, "sign": true, "unit": "degrees"    }, "name": "Timing advance #4"},
-    {"id": "SONATA_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,             "mul": 0.5,                "unit": "kilopascal" }, "name": "Barometric pressure"}
+    {"id": "SONATA_BAROMETRIC_PRESSURE", "path": "Engine", "fmt": {"bix": 312, "len": 8, "max": 127.5,             "mul": 0.5,                "unit": "kilopascal" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"21": "14"}, "freq": 1, "filter": { "to": 2023 }, "dbgfilter": { "to": 2012, "years": [2014, 2015, 2016, 2017], "from": 2019 },
   "signals": [
@@ -508,7 +508,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E001"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "years": [2018, 2020], "from": 2027 },
   "signals": [
-    {"id": "SONATA_EIT", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature"},
+    {"id": "SONATA_EIT", "path": "Engine", "fmt": {"bix": 264, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Intake air temperature", "suggestedMetric": "intakeAirTemperature"},
     {"id": "SONATA_EOT", "path": "Engine", "fmt": {"bix": 272, "len": 8, "max": 143, "min": -48, "mul": 3, "div": 4, "add": -48, "unit": "celsius" }, "name": "Engine oil temperature"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "E002"}, "freq": 5, "filter": { "from": 2015 }, "dbgfilter": { "years": [2018], "from": 2027 },
