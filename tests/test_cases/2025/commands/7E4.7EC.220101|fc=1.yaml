@@ -1,4 +1,4 @@
-command_id: 7E4.7EC.220101|fc=1,f=2018-;-2014
+command_id: 7E4.7EC.220101|fc=1
 test_cases:
 - expected_values:
     SONATA_C_V_MAX: 0
